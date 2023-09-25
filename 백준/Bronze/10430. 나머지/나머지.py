@@ -1,0 +1,8 @@
+Q, W, E = input().split()
+A = int(Q)
+B = int(W)
+C = int(E)
+print((A+B)%C)
+print(((A%C)+(B%C))%C)
+print((A*B)%C)
+print(((A%C)*(B%C))%C)
